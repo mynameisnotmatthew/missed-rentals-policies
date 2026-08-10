@@ -26,6 +26,9 @@ This program is limited to employees using it as part of their job duties. Emplo
 ## Data retention
 Message and log data is retained for internal business record-keeping and may be deleted or archived at our discretion.
 
+## Consent
+See our [Consent page](./consent.md) for how employee consent to this program is obtained.
+
 ## Contact
 Questions about this policy can be directed to:
 Skye Equipment Rentals

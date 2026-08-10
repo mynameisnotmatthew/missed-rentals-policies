@@ -28,3 +28,6 @@ Skye Equipment Rentals, LLC may update these terms from time to time. Continued 
 
 ## Privacy
 Use of this program is also governed by our [Privacy Policy](./privacy-policy.md).
+
+## Consent
+See our [Consent page](./consent.md) for how employee consent to this program is obtained.
