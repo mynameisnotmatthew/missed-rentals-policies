@@ -9,7 +9,7 @@ This text messaging program is operated by Skye Equipment Rentals, LLC for inter
 Use of this program is limited to employees authorized by Skye Equipment Rentals, LLC. Messages from phone numbers not on the authorized list will not be processed or logged.
 
 ## How it works
-An eligible employee must first text the keyword JOIN to the program number to opt in and receive a one-time confirmation message. Once opted in, the employee may text the designated program number with details of a missed rental (equipment requested, customer, rental duration, estimated value if known, and reason it was missed). The system may reply with clarifying questions if required information is missing, and will confirm once an entry has been successfully logged to our internal records.
+An eligible employee must first text the keyword JOIN to the program number, which returns program disclosures and a request to reply CONFIRM. Only after replying CONFIRM does the employee receive a final confirmation message and become opted in. Once opted in, the employee may text the designated program number with details of a missed rental (equipment requested, customer, rental duration, estimated value if known, and reason it was missed). The system may reply with clarifying questions if required information is missing, and will confirm once an entry has been successfully logged to our internal records.
 
 ## Message frequency
 Message frequency varies based on employee usage and is initiated by the employee. There is no recurring or scheduled messaging as part of this program.

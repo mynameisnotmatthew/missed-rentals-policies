@@ -24,31 +24,42 @@ in (see below).
    [Privacy Policy](./privacy-policy.md) and
    [Terms and Conditions](./terms-and-conditions.md), and adds the
    employee's phone number to the authorized-sender allow-list.
-2. To actually opt in, the employee must personally text the keyword
+2. To begin opting in, the employee must personally text the keyword
    **JOIN** to the program number from their own phone.
-3. On receiving JOIN from an eligible number, the system replies with a
-   one-time confirmation message containing the required disclosures:
+3. On receiving JOIN from an eligible number, the system replies with the
+   required disclosures and a request for final confirmation:
+
+   > "Skye Equipment Rentals: You're signing up for the Missed Rental
+   > Logging program to report missed equipment rentals by text. Msg
+   > frequency varies. Msg & data rates may apply. Reply HELP for help,
+   > STOP to cancel. Terms: https://github.com/mynameisnotmatthew/missed-rentals-policies/blob/main/terms-and-conditions.md
+   > Privacy: https://github.com/mynameisnotmatthew/missed-rentals-policies/blob/main/privacy-policy.md
+   > Reply CONFIRM to finish signing up."
+
+4. The employee must reply **CONFIRM** to complete opt-in. Only then does
+   the system send a final confirmation message:
 
    > "Skye Equipment Rentals: You're opted in to the Missed Rental Logging
-   > program to report missed equipment rentals by text. Msg frequency
-   > varies. Msg & data rates may apply. Reply HELP for help, STOP to
-   > cancel."
+   > program. Msg frequency varies. Msg & data rates may apply. Reply HELP
+   > for help, STOP to cancel."
 
-4. Only after this JOIN message is received is the number treated as
-   opted in. Any other message sent by an eligible-but-not-yet-joined
-   number is not processed as program data — the system instead replies
-   asking the employee to text JOIN first. This JOIN text is the sole
+5. Only after this confirmation message is sent is the number treated as
+   opted in. Any other message sent by an eligible-but-not-yet-confirmed
+   number is not processed as program data — the system instead prompts
+   the employee to text JOIN (or CONFIRM, if JOIN was already sent) as
+   appropriate. This two-step JOIN-then-CONFIRM exchange is the sole
    consent event recorded by the system; enrollment on the allow-list
    alone never activates the program for a number.
 
 ## Opt-in path 2: START keyword (re-subscription)
 
-An employee who has previously opted in (via JOIN) and later replied STOP
-may resume the program at any time by replying **START**. Because they
-already completed the JOIN opt-in previously, START does not require
-repeating it. Replying START to a number that was never opted in via JOIN
-has no effect beyond clearing any opt-out flag — the program remains
-inactive for that number until JOIN is sent.
+An employee who has previously completed opt-in (JOIN then CONFIRM) and
+later replied STOP may resume the program at any time by replying
+**START**. Because they already completed the JOIN/CONFIRM opt-in
+previously, START does not require repeating it. Replying START to a
+number that never completed JOIN/CONFIRM has no effect beyond clearing any
+opt-out flag — the program remains inactive for that number until the
+JOIN/CONFIRM exchange is completed.
 
 ## Opting out
 
